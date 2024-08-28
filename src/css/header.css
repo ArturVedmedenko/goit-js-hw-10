@@ -1,7 +1,7 @@
 .nav {
   position: absolute;
-  top: 5px;
-  left: 30px;
+  top: 6px;
+  left: 32px;
 }
 
 .nav-list {
@@ -12,7 +12,7 @@
 }
 
 .nav-item {
-  margin-right: 15px;
+  margin-right: 32px;
 }
 
 .nav-link {

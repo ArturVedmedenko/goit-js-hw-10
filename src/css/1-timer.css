@@ -1,0 +1,56 @@
+.timer-title {
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 80px;
+}
+.input-section {
+  display: flex;
+  justify-content: space-between;
+}
+.timer-section {
+  position: absolute;
+  top: 14px;
+  left: 128px;
+
+  border: 1px solid rgb(12, 12, 12);
+  border-radius: 5px;
+  background-color: rgb(194, 199, 199);
+  width: 30%;
+  padding: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.input-section input {
+  width: 65%;
+  height: 25px;
+  text-align: center;
+  font-size: 16px;
+}
+.input-section button {
+  font-size: 18px;
+  font-weight: 500;
+  width: 30%;
+  min-height: 20px;
+  background-color: rgb(188, 188, 182);
+  border: 1px solid rgb(12, 12, 12);
+  border-radius: 5px;
+}
+.timer {
+  margin-top: 20px;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+.field {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+.value {
+  font-size: 30px;
+}
+.label {
+  text-transform: uppercase;
+}
