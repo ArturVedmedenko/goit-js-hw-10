@@ -1,0 +1,54 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+img {
+  display: block;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  width: 1128px;
+  padding: 0;
+  margin: 24px 156px;
+}
+
+.gallery-item {
+  display: flex;
+  flex-shrink: 0;
+  width: calc((100% - 48px) / 3);
+}
+
+.gallery-link {
+  width: 100%;
+  height: 100%;
+}
+
+.gallery-image {
+  width: 360px;
+  height: 200px;
+  object-fit: cover;
+  transition: transform 0.3s ease-in-out;
+}
+
+.gallery-image:hover,
+.gallery-image:focus {
+  transform: scale(1.04);
+  cursor: url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDQiIGhlaWdodD0iNDQiIHZpZXdCb3g9IjAgMCA0NCA0NCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8cGF0aCBkPSJNMTQuMTU3IDM5LjkwOThDMTQuNDg2NyA0MC4xODM3IDE0LjkwMTggNDAuMzMzNSAxNS4zMzAzIDQwLjMzMzNMMzQuODMzMyA0MC4zMzMzQzM1LjgwNTggNDAuMzMzMyAzNi43Mzg0IDM5Ljk0NyAzNy40MjYxIDM5LjI1OTRDMzguMTEzNyAzOC41NzE3IDM4LjUgMzc2MzkxIDM4LjUgMzYuNjY2NkwzOC41IDIzLjQ0ODNDMzguNDk5NyAyMi41NDYyIDM4LjE2NjggMjEuNjc2IDM3LjU2NTEgMjEuMDAzOUMzNi45NjM0IDIwLjMzMTggMzYuMTM1IDIwLjkwNTIgMzUuMjM4NSAxOS44MDU1TDIyIDE4LjMzMzNMMjIgNy4zMzMyNUMyMiA2LjM2MDg1IDIxLjYxMzcgNS40MjgyMiAyMC45MjYxIDQuNzQwNTlDMjAuMjM4NCA0LjA1Mjk1IDE5LjMwNTggMy42NjY0NCAxOC4zMzMzIDMuNjY2NDRDMTcuMzYwOSA0LjA1Mjk1IDE2LjQyODIgNC43NDA1OSAxNS43NDA2IDUuNDI4MjJDMTUuMDUzIDUuNDMwMjIgMTQuNjY2NyA2LjM2MDg1IDE0LjY2NjcgNy4zMzMyNUwxNC42NjY3IDI5LjMzMzNMOS4xMTE2NiAyNy4xMTEzQzguNjQ3NTggMjYuOTI1OCA4LjE1MDQ5IDI2LjgzNyA3LjY1MDg4IDI2Ljg1MDVDNy4xNTEyNyAyNi44NjQsNi42NTk2OCAyNi45Nzk1IDYuMjA2MjkgMjcuMTg5OEM1Ljc1MjkgMjcuNDAwMSA1LjM0NzI2IDI3LjcwMDggNS4wMTQyNiAyOC4wNzM1QzQuNjgxMjcgMjguNDQ2MiA0LjQyNzk1IDI4LjgzIDQuMjY5ODMgMjkuMzU3MUw0LjA2MjY2IDI5Ljk4MDVDMy45NDU4MiAzMC4zMzAyIDMuOTM3NCAzMC43MDcxIDQuMDM4NDkgMzEuMDYxOEM0LjEzOTU4IDMxLjQxNjQgNC4zNDU0NyAzMS43MzIyIDQuNjI5MTcgMzEuOTY3OThMMTQuMTU3IDM5LjkwOThaIiBmaWxsPSIjNEU3NUZGIiAvPgo8L3N2Zz4='),
+    auto;
+}

@@ -1,0 +1,27 @@
+.nav {
+  position: absolute;
+  top: 5px;
+  left: 30px;
+}
+
+.nav-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.nav-item {
+  margin-right: 15px;
+}
+
+.nav-link {
+  font-family: 'Montserrat', sans-serif;
+  color: #333;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
